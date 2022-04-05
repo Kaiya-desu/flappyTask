@@ -1,0 +1,1272 @@
+fileFormatVersion: 2
+guid: 791bafeffbedf7e489870e4279c78e4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9203145899629749229
+    second: a_flappy_menu_0
+  - first:
+      213: 9861825966259581
+    second: a_flappy_menu_1
+  - first:
+      213: -6475100500009238860
+    second: a_flappy_menu_2
+  - first:
+      213: -3741831212969555472
+    second: a_flappy_menu_3
+  - first:
+      213: 4474922488582222388
+    second: a_flappy_menu_4
+  - first:
+      213: -606032483251291777
+    second: a_flappy_menu_5
+  - first:
+      213: -851422435174691137
+    second: a_flappy_menu_6
+  - first:
+      213: -7663792574425869830
+    second: a_flappy_menu_7
+  - first:
+      213: 8556257192903554341
+    second: a_flappy_menu_8
+  - first:
+      213: -3630999225405968114
+    second: a_flappy_menu_9
+  - first:
+      213: -8031266152152321390
+    second: a_flappy_menu_10
+  - first:
+      213: 1740394448727672607
+    second: a_flappy_menu_11
+  - first:
+      213: 8084116010662567517
+    second: a_flappy_menu_12
+  - first:
+      213: -2029813338980851109
+    second: a_flappy_menu_13
+  - first:
+      213: -1452388596863679946
+    second: a_flappy_menu_14
+  - first:
+      213: 1188987845901052818
+    second: a_flappy_menu_15
+  - first:
+      213: 613855052960498778
+    second: a_flappy_menu_16
+  - first:
+      213: 1369978129283675720
+    second: a_flappy_menu_17
+  - first:
+      213: -4137960481093980806
+    second: a_flappy_menu_18
+  - first:
+      213: 2250605865528991554
+    second: a_flappy_menu_19
+  - first:
+      213: -5233442325737232520
+    second: a_flappy_menu_20
+  - first:
+      213: 3940947966788720167
+    second: a_flappy_menu_21
+  - first:
+      213: 500518382932537305
+    second: a_flappy_menu_22
+  - first:
+      213: 570362539631053201
+    second: a_flappy_menu_23
+  - first:
+      213: -3846459803640022806
+    second: a_flappy_menu_24
+  - first:
+      213: 6409076728560874436
+    second: a_flappy_menu_25
+  - first:
+      213: -4568398481141950108
+    second: a_flappy_menu_26
+  - first:
+      213: -591769929458922638
+    second: a_flappy_menu_27
+  - first:
+      213: -2408710800437477235
+    second: a_flappy_menu_28
+  - first:
+      213: 7398191492132274387
+    second: a_flappy_menu_29
+  - first:
+      213: -7353428715978750670
+    second: a_flappy_menu_30
+  - first:
+      213: 6053860102877729577
+    second: a_flappy_menu_31
+  - first:
+      213: -8623218453948389593
+    second: a_flappy_menu_32
+  - first:
+      213: -6295568253599465872
+    second: a_flappy_menu_33
+  - first:
+      213: -3555868937756255857
+    second: a_flappy_menu_34
+  - first:
+      213: -4177703821819219865
+    second: a_flappy_menu_35
+  - first:
+      213: 8184113940561836537
+    second: a_flappy_menu_36
+  - first:
+      213: -8157149558607161463
+    second: a_flappy_menu_37
+  - first:
+      213: -3261215615267555142
+    second: a_flappy_menu_38
+  - first:
+      213: -2522964890925607257
+    second: a_flappy_menu_39
+  - first:
+      213: 3560702667769715669
+    second: a_flappy_menu_40
+  - first:
+      213: -6819309980427263896
+    second: a_flappy_menu_41
+  - first:
+      213: 2879817440758266491
+    second: a_flappy_menu_42
+  - first:
+      213: 5051265358450487525
+    second: a_flappy_menu_43
+  - first:
+      213: 1660714528228623693
+    second: a_flappy_menu_44
+  - first:
+      213: 909359592166359143
+    second: a_flappy_menu_45
+  - first:
+      213: -3860578506301762496
+    second: a_flappy_menu_46
+  - first:
+      213: 3783157978191061106
+    second: a_flappy_menu_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: a_flappy_menu_0
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 201
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de326837f6428bf70800000000000000
+      internalID: 9203145899629749229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 205
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d3e894749032000800000000000000
+      internalID: 9861825966259581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_2
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 191
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bebefbd662d326a0800000000000000
+      internalID: -6475100500009238860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 160
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f90b7d3658521cc0800000000000000
+      internalID: -3741831212969555472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 162
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432b9515b4e1a1e30800000000000000
+      internalID: 4474922488582222388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 164
+        width: 58
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f797579daa0f697f0800000000000000
+      internalID: -606032483251291777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_6
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 175
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe4d956ec32f24f0800000000000000
+      internalID: -851422435174691137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 168
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1d111124db4a590800000000000000
+      internalID: -7663792574425869830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 175
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525b5ed759eedb670800000000000000
+      internalID: 8556257192903554341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_9
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 136
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0175fd31791c9dc0800000000000000
+      internalID: -3630999225405968114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 148
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292b7507cf53b8090800000000000000
+      internalID: -8031266152152321390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 144
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f178975b78f172810800000000000000
+      internalID: 1740394448727672607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_12
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 145
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e17922eac803070800000000000000
+      internalID: 8084116010662567517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 152
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5262b9c587a4d3e0800000000000000
+      internalID: -2029813338980851109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 136
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632cc18244418dbe0800000000000000
+      internalID: -1452388596863679946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 140
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b60357522208010800000000000000
+      internalID: 1188987845901052818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 117
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a540a471be9d48800800000000000000
+      internalID: 613855052960498778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 127
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846f102a9d3230310800000000000000
+      internalID: 1369978129283675720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 124
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7de9c5cdd20396c0800000000000000
+      internalID: -4137960481093980806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 108
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f14484c12cb3f10800000000000000
+      internalID: 2250605865528991554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 108
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87720f5cee31f57b0800000000000000
+      internalID: -5233442325737232520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_21
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 92
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7265db6bb4f01b630800000000000000
+      internalID: 3940947966788720167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 94
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df2f3241d232f600800000000000000
+      internalID: 500518382932537305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_23
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 94
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19906e735b55ae700800000000000000
+      internalID: 570362539631053201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_24
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 94
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8b7312031ae9ac0800000000000000
+      internalID: -3846459803640022806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_25
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 94
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3f710f35d91f850800000000000000
+      internalID: 6409076728560874436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_26
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 92
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469991b29c9c990c0800000000000000
+      internalID: -4568398481141950108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_27
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 84
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bc7dd626c99c7f0800000000000000
+      internalID: -591769929458922638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 66
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d800745f94a829ed0800000000000000
+      internalID: -2408710800437477235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_29
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 66
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d08cdcf6f7aba660800000000000000
+      internalID: 7398191492132274387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 72
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2350eeefa8f53f990800000000000000
+      internalID: -7353428715978750670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 73
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923dfe750b1a30450800000000000000
+      internalID: 6053860102877729577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 82
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72720dff08c245880800000000000000
+      internalID: -8623218453948389593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_33
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 82
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e3af85706a1a8a0800000000000000
+      internalID: -6295568253599465872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_34
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 82
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8951397a0407aec0800000000000000
+      internalID: -3555868937756255857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_35
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 82
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7607cab2280d506c0800000000000000
+      internalID: -4177703821819219865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_36
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 70
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9b2848440d39170800000000000000
+      internalID: 8184113940561836537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_37
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 70
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9875c73e1bbfbce80800000000000000
+      internalID: -8157149558607161463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_38
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 70
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab835043da5ddb2d0800000000000000
+      internalID: -3261215615267555142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_39
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 70
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6d8978cc0acfcd0800000000000000
+      internalID: -2522964890925607257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_40
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 73
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db133ff5382a6130800000000000000
+      internalID: 3560702667769715669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_41
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 72
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8606b5bf3b1fc51a0800000000000000
+      internalID: -6819309980427263896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_42
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 73
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7afe5654ba27f720800000000000000
+      internalID: 2879817440758266491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_43
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 73
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e07daca413b91640800000000000000
+      internalID: 5051265358450487525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 36
+        width: 89
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45c568801b0c0710800000000000000
+      internalID: 1660714528228623693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 8
+        width: 113
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7608b282bb1be9c00800000000000000
+      internalID: 909359592166359143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_46
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 66
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04410608d487c6ac0800000000000000
+      internalID: -3860578506301762496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a_flappy_menu_47
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 68
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270634b132a708430800000000000000
+      internalID: 3783157978191061106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
