@@ -58,8 +58,7 @@ public class FlappyLogic : MonoBehaviour
         Debug.Log("BOOOM!");
         // bomb logic
         // destory all pipes spawned 
-        GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag("Pipe");
-        foreach (GameObject pipe in taggedObjects) 
+        foreach (GameObject pipe in GameObject.FindGameObjectsWithTag("Pipe")) 
         {
             Destroy(pipe);
         }
@@ -87,7 +86,5 @@ public class FlappyLogic : MonoBehaviour
     {
         gameManager.GameOver(score);
     }
-
-
 
 }

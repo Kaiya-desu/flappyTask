@@ -5,13 +5,14 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
 
-    [SerializeField] private float maxTime;
+    public float maxTime;
+
     private float timer;
     [SerializeField] private GameObject pipePrefab;
     [SerializeField] private float height;
 
     void Start()
-    {
+    {  
         GameObject spawnedPipe = Instantiate(pipePrefab);
         spawnedPipe.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
         
@@ -20,6 +21,8 @@ public class Spawner : MonoBehaviour
 
     void Update()
     {
+        maxTime = GameManager.maxTime;
+
         if (timer > maxTime)
         {
             GameObject spawnedPipe = Instantiate(pipePrefab);
