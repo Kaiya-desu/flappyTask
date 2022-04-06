@@ -12,6 +12,7 @@ public class FlappyLogic : MonoBehaviour
 
     private int score;
     public GameObject scoreCounter;
+    public GameObject bombCounter;
 
     private int bombs;
 
@@ -19,13 +20,13 @@ public class FlappyLogic : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
 
-        Time.timeScale = 1f; // na start gra jest w trybie pauzy
+        Time.timeScale = 1f; // unpauze gra gdy robimy restart
     }
 
     void Update()
     {
         Jump();
-        scoreCounter.GetComponent<UnityEngine.UI.Text>().text = score.ToString();
+        
     }
 
     void Jump()
@@ -35,14 +36,23 @@ public class FlappyLogic : MonoBehaviour
         {
             _rb.velocity = Vector2.up * velocity;
             
-            // gry rozpocznynamy gre musimy kliknac na ekran aby rozpoczac rozgrywke
+            /*
+            // gry rozpocznynamy gre musimy kliknac na ekran aby rozpoczac rozgrywke -> albo raczej niepotrzebne, po prostu na start unpauze game
             if (Time.timeScale == 0f)
             {
                 Time.timeScale = 1f;
             }
+            */
         }
 
         // gdy dwa razy szybko tap -> Bomb()
+        if (bombs > 0)
+        {
+            Bomb();
+            bombs--;
+            bombCounter.GetComponent<UnityEngine.UI.Text>().text = bombs.ToString();
+        }
+
     }
 
     void Bomb()
@@ -51,11 +61,18 @@ public class FlappyLogic : MonoBehaviour
         // space for bomb logic
 
         // destory all pipes spawned 
+        GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag("Pipe");
+        foreach (GameObject pipe in taggedObjects) 
+        {
+            Destroy(pipe);
+        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         score++;
+        scoreCounter.GetComponent<UnityEngine.UI.Text>().text = score.ToString();
 
         if (score % 10 == 0) // CO 10 RUR GRACZ OTRZYMUJE BOMBE -> 10 RUR = 10 PKT 
         {
@@ -63,6 +80,7 @@ public class FlappyLogic : MonoBehaviour
             {
                 Debug.Log("NOWA BOMBA!");
                 bombs++;
+                bombCounter.GetComponent<UnityEngine.UI.Text>().text = bombs.ToString();
             }
             
         }
@@ -72,7 +90,7 @@ public class FlappyLogic : MonoBehaviour
     {
         // add score to list -> save file 
 
-        gameManager.GameOver();
+        gameManager.GameOver(score);
     }
 
 

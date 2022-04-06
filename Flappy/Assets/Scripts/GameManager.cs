@@ -8,10 +8,15 @@ public class GameManager : MonoBehaviour
 {
     public DeathMenuLogic deathLogic;
 
-    public void GameOver()
+    private void Start()
+    {
+        Records.LoadFromFile(); // gdy zaczynamy gre to ladujemy plik z zapisami
+    }
+
+    public void GameOver(int score)
     {
         Time.timeScale = 0f; // pauzujemy gre
-        deathLogic.GameOverScreen();
+        deathLogic.GameOverScreen(score);
     }
 
     public void Restart(bool restart)
@@ -23,7 +28,6 @@ public class GameManager : MonoBehaviour
         else
         {
             SceneManager.LoadScene(0);
-
         }
     }
 

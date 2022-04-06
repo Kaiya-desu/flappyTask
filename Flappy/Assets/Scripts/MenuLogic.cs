@@ -35,7 +35,6 @@ public class MenuLogic : MonoBehaviour
 
     public void StartGame()
     {
-        //Time.timeScale = 1f; // rozpoczynamy gre
         SceneManager.LoadScene(1);
     }
 
