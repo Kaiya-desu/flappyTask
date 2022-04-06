@@ -14,6 +14,8 @@ public static class Records
 
     // nie wiem jaka jest sciezka na emulatorze BlueStacks na ktorym probowalam testowac aplikacje (nie mam telefonu z androidem)
     // tak wiec nie wiem czy sciezka Application.persistentDataPath + "/save.txt" dziala.....
+    
+    // build APK zrobilam ze sciezka Application.persistentDataPath + "/save.txt"
     private static string filePath = "save.txt"; // na komputerze -> @"save.txt"; dla androida -> Application.persistentDataPath + "/save.txt";
 
     public static void LoadFromFile()
