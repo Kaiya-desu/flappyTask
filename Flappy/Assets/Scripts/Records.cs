@@ -12,7 +12,7 @@ public static class Records
 
     private static List<int> topRanking;
 
-    private static string filePath = @"save.txt";
+    private static string filePath = Application.persistentDataPath +"/save.txt"; // na komputerze -> @"save.txt";
 
     public static void LoadFromFile()
     {
