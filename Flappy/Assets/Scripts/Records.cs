@@ -16,7 +16,8 @@ public static class Records
 
     public static void LoadFromFile()
     {
-        if (File.Exists(filePath) && new FileInfo(filePath).Length > 0)
+        Debug.Log(new FileInfo(filePath).Length);
+        if (File.Exists(filePath) && new FileInfo(filePath).Length > 14) // plik z 5x 0 ma dlugosc 15 wiec sprawdzam czy na pewno sa potrzebne dane we pliku
         {
             Debug.Log("laduje plik txt");
             //  topRanking = File.ReadAllLines(filePath).Select(x => Convert.ToInt32(x)).ToList();
@@ -54,17 +55,16 @@ public static class Records
         Debug.Log(topRanking);
         if (!File.Exists(filePath))
         {
-             File.Create(filePath); // tworzymy nowy plik
+             File.Create(filePath); // tworzymy nowy plik jezeli nie istnieje
         }
-        // File.WriteAllLines(filePath, topRanking.Select(x => x.ToString())); nie dziala
-
         File.WriteAllLines(filePath, topRanking.Select(x => string.Join(",", x)));
     }
 
     // metoda ktora podaje statystyki do rankingu
-    public static List<int> GetRanking()
+    public static string GetRanking()
     {
-        return topRanking;
+        return string.Join("\n", topRanking.ToArray());
+
     }
 
 }

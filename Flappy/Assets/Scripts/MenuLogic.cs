@@ -7,8 +7,10 @@ public class MenuLogic : MonoBehaviour
 {
     private GameObject mainMenu;
     private GameObject ranking;
+    public GameObject rankingText;
 
     public GameManager gameManager;
+
 
     public void Start()
     {
@@ -25,6 +27,8 @@ public class MenuLogic : MonoBehaviour
         ranking.gameObject.SetActive(true);
 
         // wczytaj liste 5 naj rekordow, wyswietl je
+        var rankingList = Records.GetRanking();
+        rankingText.GetComponent<UnityEngine.UI.Text>().text = rankingList;
     }
 
     public void goBackToMenu()
