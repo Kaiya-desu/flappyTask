@@ -18,6 +18,8 @@ public class FlappyLogic : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+
+        Time.timeScale = 1f; // na start gra jest w trybie pauzy
     }
 
     void Update()
@@ -32,6 +34,12 @@ public class FlappyLogic : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             _rb.velocity = Vector2.up * velocity;
+            
+            // gry rozpocznynamy gre musimy kliknac na ekran aby rozpoczac rozgrywke
+            if (Time.timeScale == 0f)
+            {
+                Time.timeScale = 1f;
+            }
         }
 
         // gdy dwa razy szybko tap -> Bomb()

@@ -6,26 +6,24 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public MenuLogic menuLogic;
+    public DeathMenuLogic deathLogic;
 
     public void GameOver()
     {
         Time.timeScale = 0f; // pauzujemy gre
-        menuLogic.GameOverScreen();
+        deathLogic.GameOverScreen();
     }
 
-    public void Restart(bool s)
+    public void Restart(bool restart)
     {
-        if (!s)
+        if (restart)
+        {
+            SceneManager.LoadScene(1);
+        }
+        else
         {
             SceneManager.LoadScene(0);
-        }
 
-        if (s)
-        {
-            Debug.Log("xdd s");
-           // menuLogic.StartGame(); // gdy true od razu rozpozczynamy nowa gre
-           // reset flappiego -> gdy scene load to nie dziala fast reset -> wraca nas do menu glownego // do poprawy 
         }
     }
 
