@@ -8,6 +8,8 @@ public class MenuLogic : MonoBehaviour
     private GameObject ranking;
     private GameObject deathScreen;
 
+    public GameManager gameManager;
+
     // mozna rozdzielic na sceny, ale nie chce by pomiedzy przejsciami bylo ladowanie nowej sceny -> gra jest mała wiec nie wymaga loadingów,
     // od przycisku start powinna od razu "plynnie" przejsc do rozgrywki
 
@@ -23,37 +25,56 @@ public class MenuLogic : MonoBehaviour
         deathScreen.gameObject.SetActive(false);
         mainMenu.gameObject.SetActive(true);
     }
+
+    public void GameOverScreen()
+    {
+        //mainMenu.gameObject.SetActive(false);
+        //ranking.gameObject.SetActive(false);
+        deathScreen.gameObject.SetActive(true);
+
+        // -> sprawdz czy jest w top 5, jak tak podaj info na ten temat
+
+        //Time.timeScale = 0f; // pauzujemy gre
+    }
+
     public void goToRanking()
     {
         mainMenu.gameObject.SetActive(false);
-        deathScreen.gameObject.SetActive(false);
+       //deathScreen.gameObject.SetActive(false);
         ranking.gameObject.SetActive(true);
+
+        // wczytaj liste 5 naj rekordow, wyswietl je
     }
 
     public void goBackToMenu()
     {
-        ranking.gameObject.SetActive(false);
-        deathScreen.gameObject.SetActive(false);
-        mainMenu.gameObject.SetActive(true);
+        gameManager.Restart(false); // na wszelki wypadek restartujemy flappiego  (np gdy ktos pojdzie z death screena do main menu)
+        //ranking.gameObject.SetActive(false);
+        //deathScreen.gameObject.SetActive(false);
+        //mainMenu.gameObject.SetActive(true);
     }
 
     public void StartGame()
     {
-        ranking.gameObject.SetActive(false);
-        deathScreen.gameObject.SetActive(false);
+       //ranking.gameObject.SetActive(false);
+        //deathScreen.gameObject.SetActive(false);
         mainMenu.gameObject.SetActive(false);
-
+    
         Time.timeScale = 1f; // rozpoczynamy gre
+
+        Debug.Log("sng");
     }
 
     public void RestartGame()
     {
-        ranking.gameObject.SetActive(false);
+        //ranking.gameObject.SetActive(false);
         deathScreen.gameObject.SetActive(false);
-        mainMenu.gameObject.SetActive(false);
+        //mainMenu.gameObject.SetActive(false);
 
-       // Time.timeScale = 1f; // rozpoczynamy gre
+        // restart flappiego
+        gameManager.Restart(true);
     }
+
 
     public void QuitGame()
     {
