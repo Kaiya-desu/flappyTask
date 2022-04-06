@@ -32,7 +32,7 @@ public class FlappyLogic : MonoBehaviour
 
     void Jump()
     {
-        // w celu testowania gry w unity -> na koncu zmiana sterowania na dotyk telefonu Input.GetTouch
+        // wedlug stacka Input.GetMouseButtonDown(0) dziala rowniez na telefonach, nie mam telefonu z androidem by przetestowac
         if (Input.GetMouseButtonDown(0))
         {
             _rb.velocity = Vector2.up * velocity;

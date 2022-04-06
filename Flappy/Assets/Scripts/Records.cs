@@ -12,12 +12,14 @@ public static class Records
 
     private static List<int> topRanking;
 
-    private static string filePath = Application.persistentDataPath +"/save.txt"; // na komputerze -> @"save.txt";
+    // nie wiem jaka jest sciezka na emulatorze BlueStacks na ktorym probowalam testowac aplikacje (nie mam telefonu z androidem)
+    // tak wiec nie wiem czy sciezka Application.persistentDataPath + "/save.txt" dziala.....
+    private static string filePath = "save.txt"; // na komputerze -> @"save.txt"; dla androida -> Application.persistentDataPath + "/save.txt";
 
     public static void LoadFromFile()
     {
         Debug.Log(new FileInfo(filePath).Length);
-        if (File.Exists(filePath) && new FileInfo(filePath).Length > 14) // plik z 5x 0 ma dlugosc 15 wiec sprawdzam czy na pewno sa potrzebne dane we pliku
+        if (File.Exists(filePath) && new FileInfo(filePath).Length > 14) // plik z 5x 0 ma dlugosc 15 wiec sprawdzam czy na pewno sa potrzebne dane w pliku
         {
             Debug.Log("laduje plik txt");
             topRanking = File.ReadAllLines(filePath).Select(x => Convert.ToInt32(x)).ToList();
@@ -25,7 +27,7 @@ public static class Records
         else
         {
             Debug.Log("brak plik txt");
-            topRanking = new List<int> { 0, 0, 0, 0, 0 };
+            topRanking = new List<int> {0,0,0,0,0};
         }
        
     }
