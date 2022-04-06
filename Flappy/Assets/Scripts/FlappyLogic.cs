@@ -6,15 +6,17 @@ public class FlappyLogic : MonoBehaviour
 {
 
     private Rigidbody2D _rb;
-    public GameManager gameManager;
+    [SerializeField] private GameManager gameManager;
 
     [SerializeField] private float velocity;
 
     private int score;
-    public GameObject scoreCounter;
-    public GameObject bombCounter;
+    [SerializeField] private GameObject scoreCounter;
 
     private int bombs;
+    [SerializeField] private GameObject bombCounter;
+
+    private float lastClickTime;
 
     void Start()
     {
@@ -26,7 +28,6 @@ public class FlappyLogic : MonoBehaviour
     void Update()
     {
         Jump();
-        
     }
 
     void Jump()
@@ -35,22 +36,19 @@ public class FlappyLogic : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             _rb.velocity = Vector2.up * velocity;
-            
-            /*
-            // gry rozpocznynamy gre musimy kliknac na ekran aby rozpoczac rozgrywke -> albo raczej niepotrzebne, po prostu na start unpauze game
-            if (Time.timeScale == 0f)
-            {
-                Time.timeScale = 1f;
-            }
-            */
-        }
 
-        // gdy dwa razy szybko tap -> Bomb()
-        if (bombs > 0)
-        {
-            Bomb();
-            bombs--;
-            bombCounter.GetComponent<UnityEngine.UI.Text>().text = bombs.ToString();
+            // gdy dwa razy szybko tap -> Bomb()
+            if (Time.time - lastClickTime <= 0.2f)
+            {
+                Debug.Log("DOUBLE CLICK!");
+                if (bombs > 0)
+                {
+                    Bomb();
+                    bombs--;
+                    bombCounter.GetComponent<UnityEngine.UI.Text>().text = bombs.ToString();
+                }
+            }
+            lastClickTime = Time.time;
         }
 
     }
@@ -58,8 +56,7 @@ public class FlappyLogic : MonoBehaviour
     void Bomb()
     {
         Debug.Log("BOOOM!");
-        // space for bomb logic
-
+        // bomb logic
         // destory all pipes spawned 
         GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag("Pipe");
         foreach (GameObject pipe in taggedObjects) 
@@ -88,8 +85,6 @@ public class FlappyLogic : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // add score to list -> save file 
-
         gameManager.GameOver(score);
     }
 

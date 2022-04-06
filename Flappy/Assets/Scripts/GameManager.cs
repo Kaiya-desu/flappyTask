@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public DeathMenuLogic deathLogic;
+    [SerializeField] private DeathMenuLogic deathLogic; // tylko na scenie Game
 
     private void Start()
     {

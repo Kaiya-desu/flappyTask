@@ -20,7 +20,6 @@ public static class Records
         if (File.Exists(filePath) && new FileInfo(filePath).Length > 14) // plik z 5x 0 ma dlugosc 15 wiec sprawdzam czy na pewno sa potrzebne dane we pliku
         {
             Debug.Log("laduje plik txt");
-            //  topRanking = File.ReadAllLines(filePath).Select(x => Convert.ToInt32(x)).ToList();
             topRanking = File.ReadAllLines(filePath).Select(x => Convert.ToInt32(x)).ToList();
         }
         else
@@ -35,7 +34,6 @@ public static class Records
     {
         // sprawdzamy czy nowy rekord jest wyzszy od 4 indexu (tj pozycji na samym dole top rankingu),
         // nastepnie sortujemy wszystkie rekordy i odwracmay je by byly malejaco
-       // Debug.Log("jestem w check top! " + newScore + " " + topRanking[4]);
         if (newScore > topRanking[4])
         {
             Debug.Log("wynik wiekszy od 5 pozycji");
@@ -51,8 +49,7 @@ public static class Records
 
     static void SaveToFile()
     { 
-        // zapisujemy nowa liste rekordow
-        Debug.Log(topRanking);
+        // zapisujemy liste rekordow
         if (!File.Exists(filePath))
         {
              File.Create(filePath); // tworzymy nowy plik jezeli nie istnieje

@@ -7,10 +7,7 @@ public class MenuLogic : MonoBehaviour
 {
     private GameObject mainMenu;
     private GameObject ranking;
-    public GameObject rankingText;
-
-    public GameManager gameManager;
-
+    [SerializeField] private GameObject rankingText;
 
     public void Start()
     {

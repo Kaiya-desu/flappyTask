@@ -5,10 +5,10 @@ using UnityEngine;
 public class DeathMenuLogic : MonoBehaviour
 {
     private GameObject deathScreen;
-    public GameObject scoreCounter; 
-    public GameObject finalInfo;
+    [SerializeField] private GameObject scoreCounter;
+    [SerializeField] private GameObject finalInfo;
 
-    public GameManager gameManager;
+    [SerializeField] private GameManager gameManager;
 
     void Start()
     {
@@ -23,9 +23,6 @@ public class DeathMenuLogic : MonoBehaviour
         scoreCounter.GetComponent<UnityEngine.UI.Text>().text = score.ToString();
 
         // -> sprawdz czy jest w top 5, jak tak podaj info na ten temat
-
-
-
         if (Records.checkTop(score))
         {
             finalInfo.GetComponent<UnityEngine.UI.Text>().text = "ADDED TO RANKING!"; // GDY JESTESMY W TOP 5
