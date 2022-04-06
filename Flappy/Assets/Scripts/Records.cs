@@ -16,9 +16,10 @@ public static class Records
 
     public static void LoadFromFile()
     {
-        if (File.Exists(filePath))
+        if (File.Exists(filePath) && new FileInfo(filePath).Length > 0)
         {
             Debug.Log("laduje plik txt");
+            //  topRanking = File.ReadAllLines(filePath).Select(x => Convert.ToInt32(x)).ToList();
             topRanking = File.ReadAllLines(filePath).Select(x => Convert.ToInt32(x)).ToList();
         }
         else
@@ -33,7 +34,7 @@ public static class Records
     {
         // sprawdzamy czy nowy rekord jest wyzszy od 4 indexu (tj pozycji na samym dole top rankingu),
         // nastepnie sortujemy wszystkie rekordy i odwracmay je by byly malejaco
-        Debug.Log("jestem w check top! " + newScore);
+       // Debug.Log("jestem w check top! " + newScore + " " + topRanking[4]);
         if (newScore > topRanking[4])
         {
             Debug.Log("wynik wiekszy od 5 pozycji");
@@ -53,10 +54,11 @@ public static class Records
         Debug.Log(topRanking);
         if (!File.Exists(filePath))
         {
-            File.Create(filePath); // tworzymy nowy plik
-           // File.WriteAllLines(filePath, topRanking.Select(x => x.ToString()));
+             File.Create(filePath); // tworzymy nowy plik
         }
-    //    File.WriteAllLines(filePath, topRanking.Select(x => x.ToString()));
+        // File.WriteAllLines(filePath, topRanking.Select(x => x.ToString())); nie dziala
+
+        File.WriteAllLines(filePath, topRanking.Select(x => string.Join(",", x)));
     }
 
     // metoda ktora podaje statystyki do rankingu
